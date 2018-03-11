@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1509658288865" stop="1509658324243" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>test</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1509658288912" stop="1509658324161" status="passed">
+            <name>login to application</name>
+            <title>login to application</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1509658300044" stop="1509658322447" status="passed">
+                    <name>Given I register with below info in the application</name>
+                    <title>Given I register with below info in the application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1509658322452" stop="1509658324157" status="passed">
+                    <name>And I Select "ARG" value from the drop down</name>
+                    <title>And I Select "ARG" value from the drop down</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="login to application"/>
+                <label name="feature" value="test"/>
+                <label name="host" value="DESKTOP-CK1BJ5Q"/>
+                <label name="thread" value="6376@DESKTOP-CK1BJ5Q.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="test"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
